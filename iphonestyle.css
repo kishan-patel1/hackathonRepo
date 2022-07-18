@@ -1,0 +1,76 @@
+#footer{
+    height:300px;
+    background-color: lightgray;
+    padding:30px;
+}
+
+
+
+.hr {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+#appleimg {
+    width:100px;
+    height:77px;
+    display:block;
+}
+
+#learnm {
+    margin:auto;
+    width:auto;
+    text-align:center;
+    display:block;
+}
+
+.proimg{
+    padding:15px;
+}
+
+#vimg{
+    height:70px;
+    width:110px;
+    padding-left:10px;
+    padding-right:10px;
+}
+#simg{
+    height:70px;
+    width:110px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#aimg{
+    height:74px;
+    width:78px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#timg{
+    height:74px;
+    width:78px;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#alink {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#tlink {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#slink {
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#vlink {
+    padding-left:15px;
+    padding-right:15px;
+}
