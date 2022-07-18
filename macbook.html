@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Apple</title>
 
@@ -10,14 +11,28 @@
 
     <!-- Bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 </head>
 <body>
+    <ul class="nav nav-tabs">
+        <li role="presentation"><a href="#">Home</a></li>
+        <li role="presentation" class="active"><a href="./macbook.html">MacBook</a></li>
+        <li role="presentation"><a href="#">iPhone</a></li>
+        <li role="presentation"><a href="#">iPad</a></li>
+        <li role="presentation"><a href="#">Apple Watch</a></li>
+        <li role="presentation"><a href="./newReleases.html">New Releases</a></li>
+      </ul>
+
     <div class="row align-items-center">
-        <div class="col-3 mx-auto" id="macBook-info">
-            <h2 class="text-center" class="fw-bold">MacBook Air</h2>        
+        <div class="col-4 mx-auto" id="macBook-info">
+            <h2 class="text-center" class="fw-bold">MacBook Air</h2>
+            <h6 class="text-center">Liquid Retina display | Apple M2 chip</h6>
+            <h6 class="text-center">24GB of memory | 2TB of storage</h6>  
+            <h6 class="text-center">18 hour battery life | 1080p camera</h6>  
+            <h6 class="text-center">Spatial Audio | Touch ID</h6>          
         </div>
-        <div class="col-9 mx-auto text-center" id="macBook-image">
-            <img src="assets/macbook_m2_1.jpeg" alt="MacBook Air image">
+        <div class="col-8 mx-auto text-center" id="macBook-image">
+            <img src="assets/macbook_m2_1.jpeg" alt="MacBook Air image" style="width: 723.2px; height: 672px;">
         </div>
     </div>
 
